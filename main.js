@@ -20,12 +20,12 @@ function checkComissin(value){
 }
 
 
-// range.addEventListener('click', function(event){
-//         namber.value = this.value;
-//         value1.style.height = this.value+'px';
-//         commission.style.height=checkComissin(this.value)+'px';
-//         console.log('commission: '+commission.style.height);
-//     });
+range.addEventListener('click', function(event){
+        namber.value = this.value;
+        value1.style.height = this.value+'px';
+        commission.style.height=checkComissin(this.value)+'px';
+        console.log('commission: '+commission.style.height);
+    });
 
 
 // namber.addEventListener('keypress', function(event){
