@@ -37,6 +37,6 @@ namber.addEventListener('keypress', function(event){
         console.log('commission: '+commission.style.height);
 	};
 	
-// });
+});
 
 };
