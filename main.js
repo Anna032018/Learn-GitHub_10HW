@@ -28,10 +28,10 @@ range.addEventListener('click', function(event){
     });
 
 
-// namber.addEventListener('keypress', function(event){
-// 	if (event.key === "Enter"){
-// 		range.value = this.value;
-// 		value1.style.height = this.value+'px';
+namber.addEventListener('keypress', function(event){
+	if (event.key === "Enter"){
+		range.value = this.value;
+		value1.style.height = this.value+'px';
 
 // 		commission.style.height=checkComissin(this.value)+'px';
 //         console.log('commission: '+commission.style.height);
