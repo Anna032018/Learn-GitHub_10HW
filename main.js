@@ -33,9 +33,9 @@ namber.addEventListener('keypress', function(event){
 		range.value = this.value;
 		value1.style.height = this.value+'px';
 
-// 		commission.style.height=checkComissin(this.value)+'px';
-//         console.log('commission: '+commission.style.height);
-// 	};
+		commission.style.height=checkComissin(this.value)+'px';
+        console.log('commission: '+commission.style.height);
+	};
 	
 // });
 
